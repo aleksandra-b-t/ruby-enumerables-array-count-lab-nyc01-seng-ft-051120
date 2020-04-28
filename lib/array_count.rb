@@ -4,7 +4,7 @@ def count_strings(array)
   strings = [];
   while counter < array.length do
     array[counter].class == String
-    strings.push(array[counter])
+  if  strings.push(array[counter])
   end
   counter += 1;
 end

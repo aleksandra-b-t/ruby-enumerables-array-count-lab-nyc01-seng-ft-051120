@@ -3,8 +3,8 @@ def count_strings(array)
   counter = 0;
   strings = [];
   while counter < array.length do
-    array[counter].class == String
-  if  strings.push(array[counter])
+  if  array[counter].class == String
+   strings.push(array[counter])
   end
   counter += 1;
 end
